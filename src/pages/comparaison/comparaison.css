@@ -1,0 +1,90 @@
+.comparaison{
+    width: 100%;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+}
+.comparaison select{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+}
+.compaResult,.flagTag{
+    height: 250px;
+}
+.compaResult img {
+    border: solid white 2px;
+    width: 100%;
+    height: 100%;
+}
+.tagNames h3,.tagNames h1{
+    font-family: Arial,  sans-serif;
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.47);
+}
+
+.main-result h3 , .main-result p, .main-result h1{
+    height: 100px;
+    line-height: 100px;
+    margin: 0;
+}
+/* div , h1 , p , h3{
+    border: solid white 1px;
+} */
+@media screen and (max-width: 768px) {
+    .comparaison{
+        width: 100vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .main-result p {
+      font-size: 14px;
+    }
+    .main-result h1{
+        font-size: 28px;
+    }
+    .main-result h3{
+        font-size: 20px;
+    }
+    .compaResult,.flagTag{
+        height: 100px;
+        width: 150px;
+   
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .main-result p {
+      font-size: 12px;
+    }
+    .main-result h1{
+        font-size: 24px;
+    }
+    .main-result h3{
+        font-size: 18px;
+    }
+    .compaResult,.flagTag{
+        height: 80px;
+        width: 109px;
+    }
+  }
+  @media screen and (max-width: 320px){
+    .compaResult,.flagTag{
+        height: 60px;
+        width: 90px;
+    }
+    .main-result h1{
+        font-size: 20px;
+    }
+    .main-result p {
+        font-size: 11px;
+      }
+    .main-result h3{
+          font-size: 13px;
+      }
+  }

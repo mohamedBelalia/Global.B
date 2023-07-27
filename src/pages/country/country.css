@@ -1,0 +1,165 @@
+.country-styles{
+    margin-top: -20px;
+    height: 90vh;
+
+}
+
+.country-styles .bg-country{
+    width: 100%;
+    height: 100%;
+}
+.country-styles .bg-country img{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+}
+.country-styles .txt-country{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.626);
+    color: white;
+}
+.country-styles .txt-country h1{
+    font-size:55px;
+}
+.country-styles .txt-country p{
+    font-size: 30px;
+}
+.country-data{
+    padding-top: 100px;
+    color: white;
+}
+.country-data .container{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.country-data .container .col-12:last-child div{
+    width: 300px;
+    font-size: 20px;
+    text-align: center;
+}
+.country-data .container .col-12:first-child div img{
+    border: solid white 2px;
+}
+.country-data .container .col-12:first-child div{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.arms{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+.arms div{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info{
+    width: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info .info-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: solid white 1px;
+    background-color: #58fcff78;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.info .info-card p{
+    font-size: 20px;
+}
+
+.charts{
+    margin-top: 5px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+}
+
+.chart-title{
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+
+@media (max-width: 600px){
+    .arms div{
+        width: 100%;
+    }
+    .arms div img,.flag-text div , .flag-img div img{
+        margin-left: auto;
+        margin-right: auto; 
+    }
+    
+    
+  }
+
+@media screen and (max-width: 768px){
+    .charts{
+        width:350px;
+        height: 350px;
+    }
+    .flag-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .flag-text p{
+        font-size: 14px;
+    }
+    .info .info-card{
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+    }
+    .info .info-card p{
+        font-size: 14px;
+    } 
+    .info .info-card h3 , .chart-title{
+        font-size: 20px;
+    } 
+   
+}
+@media screen and (max-width: 480px){
+    .info .info-card p{
+        font-size: 12px;
+    } 
+    .info .info-card h3 , .chart-title{
+        font-size: 18px;
+    }
+}
+ @media screen and (max-width: 320px){
+    .info .info-card p{
+        font-size: 11px;
+    } 
+    .info .info-card h3 , .chart-title{
+        font-size: 13px;
+    }
+}
+

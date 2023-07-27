@@ -1,0 +1,52 @@
+.footer{
+    background-color: #000000;
+    height: 400px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.website-name .logo img{
+    width: 70px;
+}
+.footer .contacts .icons{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.footer .contacts .icons img{
+    width: 55px;
+    cursor:pointer;
+}
+
+.footer-links p{
+    font-size:20px;
+    cursor: pointer;
+}
+
+@media (max-width: 798px ){
+    .footer{
+        height: 100vh;
+    }
+    .website-name{
+        text-align: center;
+    }
+    .website-name img{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer-links{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footer .contacts{
+        padding-top: 30px;
+        text-align: center;
+    }
+    .footer .contacts .icons {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

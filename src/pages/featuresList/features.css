@@ -1,0 +1,67 @@
+.features-list{
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+  
+.features-list .countainer{
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features-list .col-12{
+    height: auto;
+}
+.features-list .feature-card{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}  
+.feature-card{
+    border: solid rgb(255, 255, 255) 1px;
+}
+.feature-card .text-feature{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.742);
+    color: white;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s ease-in;
+    cursor: pointer;
+}
+.feature-card .text-feature:hover{
+    transition: all 0.4s ease-in;
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.823);
+}
+.feature-card .img-feature{
+    width: 100%;
+    height: 100%;
+}
+.feature-card .img-feature img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.feature-card .text-feature {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px;
+}
+
+.features-list h1{
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.features-list h1 span{
+    color: rgb(0, 217, 255);
+}
+
+
